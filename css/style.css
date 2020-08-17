@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    text-decoration-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
+}
+
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/*===== Common css Ends =====*/
+
+
+/*===== banner part css start =====*/
+#banner {
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#banner .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#banner .banner-text h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+.button {
+    padding: 15px 35px;
+    background-color: #4ff576;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #4ff576;
+    transition: all linear .3s;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #4ff576;
+}
+
+/*===== banner part css ends =====*/
+
+
+
+
+
+/*===== navbar part css start =====*/
+.navbar {
+    padding-top: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .3s;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #4ff576;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #4ff576;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #4ff576;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*===== navbar part css ends =====*/
+
+
+/*===== profile part css start =====*/
+#profile {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#profile .about-text {
+    padding-left: 40px;
+}
+
+#profile h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    color: #4ff576;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#profile p {
+    color: #212529;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+#profile a:hover {
+    color: #0c0c0c;
+}
+
+/*===== profile part css ends =====*/
+
+
+/*===== services part css start =====*/
+#services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e7ffed;
+}
+
+#services h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    color: #0c0c0c;
+    padding-bottom: 30px;
+}
+
+#services .service-text li {
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5px;
+    transition: all linear .3s;
+}
+
+#services .service-text li:hover {
+    padding-left: 30px;
+    color: #4ff576;
+}
+
+
+/*===== services part css ends =====*/
+
+
+
+/*===== machine part css start =====*/
+
+#machine {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#machine h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    color: #0c0c0c;
+    padding-bottom: 50px;
+}
+
+#machine .card {
+    /* transition: all linear .3s; */
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* #machine .card:hover{
+    box-shadow: 5px 5px 10px gray;
+} */
+#machine h4 {
+    padding-top: 50px;
+}
+
+#machine a:hover {
+    color: #0c0c0c;
+}
+
+/*===== machine part css ends =====*/
+
+
+/*===== footer part css start =====*/
+#footer {
+    background: #2a363f;
+    padding-bottom: 50px;
+}
+
+
+#footer .footer_detail .logo h2 {
+    padding-top: 40px;
+    color: #ffff;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#footer .footer_detail p {
+    color: #8b969e;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#footer .footer_detail span {
+    color: #fff;
+}
+
+#footer .footer_detail .pay img {
+    width: 90%;
+    padding-top: 30px;
+
+}
+
+#footer .footer_link h4 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#footer .footer_link h4:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #8b969e;
+    bottom: 18px;
+    left: 0;
+
+}
+
+#footer .footer_link ul li {
+    padding: 4px 0;
+}
+
+#footer .footer_link ul li a {
+    color: #8b969e;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+
+#footer .footer_link ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+#copyright .copyright {
+    height: 50px;
+    background: #242f37;
+}
+
+#copyright .copyright p {
+    color: #8b969e;
+    padding-top: 10px;
+}
+
+/*===== footer part css ends =====*/
