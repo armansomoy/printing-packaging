@@ -4,10 +4,15 @@
     outline: 0;
 }
 
+li {
+    list-style: none;
+}
+
 a,
 a:hover {
     text-decoration: none;
 }
+
 
 ul,
 ol {
@@ -323,3 +328,143 @@ body {
 }
 
 /*===== footer part css ends =====*/
+
+
+
+/*======================
+ About Page CSS Start 
+ ======================*/
+
+
+.about-navbar .navbar-nav .nav-link {
+    color: #000;
+}
+
+.about-navbar {
+    position: relative;
+    height: 100px;
+}
+
+
+
+/*===== corporate part css start =====*/
+#corporate {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+#corporate h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    color: #0c0c0c;
+    padding-bottom: 30px;
+}
+
+#corporate .corporate-img img {
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+}
+
+#corporate .corporate-text {
+    padding-top: 30px;
+}
+
+#corporate .corporate-text p {
+    color: #212529;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+/*===== corporate part css ends =====*/
+
+
+/*===== information part css start =====*/
+#information {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#information h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    color: #0c0c0c;
+    padding-bottom: 50px;
+}
+
+#information p {
+    color: #212529;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+
+#information b {
+    font-weight: 600;
+}
+
+
+/*===== information part css ends =====*/
+/*======================
+ About Page CSS ends 
+ ======================*/
+
+
+
+
+/*======================
+ service Page CSS start 
+ ======================*/
+
+/*===== service-gallery part css start =====*/
+#service-gallery {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#service-gallery h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    color: #0c0c0c;
+    padding-bottom: 50px;
+}
+
+#service-gallery .gallery {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#service-gallery .gallery img {
+    width: 100%;
+    height: 270px;
+
+}
+
+#service-gallery .gallery .overlay{
+    position: absolute;
+    content: '';
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4ff576;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #212529;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+}
+
+#service-gallery #service-gallery
+/*===== service-gallery part css ends =====*/
+
+/*======================
+ service Page CSS ends 
+ ======================*/
